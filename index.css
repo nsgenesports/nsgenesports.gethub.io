@@ -1,0 +1,106 @@
+body{
+    background:#dedede;
+    font-family:mistis;
+	padding:0px;
+	margin:0px;
+}
+header{
+	width:100%;
+	height:5%;
+	background:gray;
+}
+.header2{
+	width:100%;
+	height:5%;
+	background:#fff8dc;
+}
+.apple{
+	margin:-15 0;
+	padding:0px;
+	font-family:arial;
+	scroll:fixed;
+}
+.apple ul{
+	background:#f0f8ff;
+	height:9%;
+	
+}
+.apple ul li{
+	background:#f0f8ff;
+	text-align:center;
+	padding:20px;
+	height:20%;
+	font-family:arial bold;
+	font-size:100%;
+	float:left;
+	list-style:none;
+	width:6%;
+}
+.apple ul li a{
+	color:#ff00ff;
+	background:#f0f8ff;
+	text-decoration:none;
+	display:block;
+}
+ ul li:hover{
+	font-size:120%;
+}
+ ul li a:hover{
+	
+	color:#2f4f4f;
+ }
+ .footer{
+	 align:bottom;
+	background:#f0f8ff;
+	position:relative;
+	height:170px;
+	margin-top:10px;
+	clear:both;
+	 
+ }.slider{
+	border:2px solid black;
+	width:800px;
+	height:490px;
+	background: url(1.jpeg);
+	margin-left:10px;
+	margin-top:0px;
+	animation:slide 32s infinite;
+}
+
+
+/*-----Slide Show-----*/
+@keyframes slide{
+	12.5%{
+		background:url(1.jpeg);
+	}
+	25%{
+		background:url(2.jpeg);
+	}
+	37.5%{
+		background:url(3.jpeg);
+	}
+	50%{
+		background:url(4.jpeg);
+	}
+	62.5%{
+		background:url(5.jpg);
+	}
+	75%{
+		background:url(6.jpeg);
+	}
+	87.5%{
+		background:url(7.jpeg);
+	}
+	100%{
+		background:url(8.jpeg);
+	}
+}
+.container{
+	position:absolute;
+    top:100px;
+	right:30px;
+}
+caption{
+	font-size:40px;
+	color:solid gray;
+}
